@@ -1,10 +1,12 @@
-# Actividad 1 | spring boot security 
+# Actividad 1 | spring boot security
 
-### Base de datos - mongodb
-![](./imagenes/mongodb.jpg)
+### Base de datos mongodb, usuarios existentes en base de datos.
+![](./imagenes/Mongodb.jpg)
 
-### Acceder
+### Obtener usuario por medio de sus credenciales
 ![](./imagenes/obtener%20user.jpg)
+
+### Se verifica cuando las credenciales no existen
 ![](./imagenes/user%20fail.jpg)
 
 ### Login
