@@ -31,7 +31,7 @@ public class DemoApplication {
 			http.csrf().disable()
 					.addFilterAfter(new JWTAuthorizationFilter(), UsernamePasswordAuthenticationFilter.class)
 					.authorizeRequests()
-					.antMatchers(HttpMethod.POST, "/user").permitAll()
+					.antMatchers(HttpMethod.GET, "/user").permitAll()
 					.anyRequest().authenticated();
 		}
 	}
